@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 
 export const Portfolio = () => {
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -21,12 +22,25 @@ export const Portfolio = () => {
         </Row>
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
+            // eslint-disable-next-line
+            // const content = require(data.content);
             return (
               <div key={i} className="po_item">
-                <img src={data.img} alt="" />
+                {data.isVid ? (
+                  <video
+                    src={process.env.PUBLIC_URL + data.content}
+                    muted
+                    autoPlay
+                    loop
+                    playsInline
+                  ></video>
+                ) : (
+                <img src={process.env.PUBLIC_URL + data.content} alt="" />
+                // eslint-disable-next-line
+                // <img src={content} alt="" />
+                )}
                 <div className="content">
                   <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
                 </div>
               </div>
             );

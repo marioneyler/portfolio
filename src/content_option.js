@@ -12,7 +12,7 @@ const introdata = {
         third: "J'ai envie de créer",
     },
     description: "Je suis Marion EYLER, étudiante en Motion Design et Filmaker sur Strasbourg. J'ai toujours été passionnée par le cinéma et l'audiovisuel. J'ai donc décidé de me lancer dans cette voie. Je suis actuellement en 2ème année à E-artsup Strasbourg. Je suis à la recherche d'un stage de 3 mois en tant que monteuse, motion designer ou photographe au cours de l'année 2024.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "/assets/profil.jpg",
 };
 
 const dataabout = {
@@ -70,10 +70,46 @@ const skills = [{
 // const services = [
 // ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [
+    {
+        content: "/assets/ref1.jpg",
+        description: "",
+        isVid: false,
+    },
+    {
+        content: "/assets/ref2.jpg",
+        description: "",
+        isVid: false,
+    },
+    {
+        content: "/assets/thomas1.jpg",
+        description: "",
+        isVid: false,
+    },
+    {
+        content: "/assets/thomas2.jpg",
+        description: "",
+        isVid: false,
+    },
+    {
+        content: "/assets/intro1.jpg",
+        description: "",
+        isVid: false,
+    },
+    {
+        content: "/assets/animrenard.mp4",
+        description: "",
+        isVid: true,
+    },
+    {
+        content: "/assets/intro.mp4",
+        description: "",
+        isVid: true,
+    },
+    {
+        content: "/assets/planet.mp4",
+        description: "",
+        isVid: true,
     },
 ];
 

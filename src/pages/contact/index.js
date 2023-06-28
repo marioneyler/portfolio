@@ -93,7 +93,7 @@ export const ContactUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Entrer en Contact</h3>
+            {/* <h3 className="color_sec py-4">Entrer en Contact</h3> */}
             <address>
               <strong>Email:</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
@@ -119,7 +119,7 @@ export const ContactUs = () => {
                     className="form-control"
                     id="name"
                     name="name"
-                    placeholder="Name"
+                    placeholder="Nom"
                     value={formData.name || ""}
                     type="text"
                     required
@@ -153,7 +153,7 @@ export const ContactUs = () => {
               <Row>
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit">
-                    {formData.loading ? "Sending..." : "Send"}
+                    {formData.loading ? "En cours d'envoi..." : "Envoyer"}
                   </button>
                 </Col>
               </Row>

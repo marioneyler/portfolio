@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { videosportfolio, photosportfolio, showreel, meta } from "../../content_option";
 
 export const Portfolio = () => {
 
@@ -20,25 +20,48 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+        <Row className="mb-5">
+          <Col>
+            <video
+              className="video-fluid z-depth-1"
+              playsInline
+              controls
+              src={process.env.PUBLIC_URL + showreel}
+            >
+            </video>
+          </Col>
+        </Row>
+
+        <Row className="mb-5">
+          <Col lg="8">
+            <h1 className="display-8 mb-4"> Videos </h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
         <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
-            // eslint-disable-next-line
-            // const content = require(data.content);
+          {videosportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
-                {data.isVid ? (
-                  <video
-                    src={process.env.PUBLIC_URL + data.content}
-                    muted
-                    autoPlay
-                    loop
-                    playsInline
-                  ></video>
-                ) : (
+                <video src={process.env.PUBLIC_URL + data.content} muted autoPlay loop playsInline></video>
+                <div className="content">
+                  <p>{data.description}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <Row className="mb-5">
+          <Col lg="8">
+            <h1 className="display-8 mb-4"> Photos </h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <div className="mb-5 po_items_ho">
+          {photosportfolio.map((data, i) => {
+            return (
+              <div key={i} className="po_item">
                 <img src={process.env.PUBLIC_URL + data.content} alt="" />
-                // eslint-disable-next-line
-                // <img src={content} alt="" />
-                )}
                 <div className="content">
                   <p>{data.description}</p>
                 </div>

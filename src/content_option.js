@@ -1,4 +1,4 @@
-const logotext = "Marion E.";
+const logotext = "Marion EYLER";
 const meta = {
     title: "Marion EYLER",
     description: "Je suis Marion EYLER, étudiante en Motion Design et Filmaker sur Strasbourg.",
@@ -7,17 +7,17 @@ const meta = {
 const introdata = {
     title: "Marion EYLER",
     animated: {
-        first: "J'aime le cinéma",
-        second: "J'aime le motion design",
-        third: "J'ai envie de créer",
+        first: "21 ans",
+        second: "Passionnée",
+        third: "Créative",
     },
-    description: "Je suis Marion EYLER, étudiante en Motion Design et Filmaker sur Strasbourg. J'ai toujours été passionnée par le cinéma et l'audiovisuel. J'ai donc décidé de me lancer dans cette voie. Je suis actuellement en 2ème année à E-artsup Strasbourg. Je suis à la recherche d'un stage de 3 mois en tant que monteuse, motion designer ou photographe au cours de l'année 2024.",
+    description: "Je suis Marion EYLER, étudiante en Motion Design et Filmmaker sur Strasbourg. J'ai toujours été passionnée par le cinéma et la photographie. J'ai donc décidé de me lancer dans cette voie. Je suis actuellement en 2ème année à E-artsup Strasbourg. Je suis à la recherche d'un stage de 3 mois en tant que monteuse, motion designer ou photographe au cours de l'année 2024.",
     your_img_url: "/assets/profil.jpg",
 };
 
 const dataabout = {
     title: "Un peu plus sur moi",
-    aboutme: "Je suis Marion EYLER, étudiante en Motion Design et Filmaker sur Strasbourg. J'ai toujours été passionnée par le cinéma et l'audiovisuel. J'ai donc décidé de me lancer dans cette voie. Je suis actuellement en 2ème année à E-artsup Strasbourg. Je suis à la recherche d'un stage de 3 mois en tant que monteuse, motion designer ou photographe au cours de l'année 2024.",
+    aboutme: "Je suis Marion EYLER, étudiante en Motion Design et Filmaker sur Strasbourg. J'ai toujours été passionnée par le cinéma et la photographie. J'ai donc décidé de me lancer dans cette voie. Je suis actuellement en 2ème année à E-artsup Strasbourg. Je suis à la recherche d'un stage de 3 mois en tant que monteuse, motion designer ou photographe au cours de l'année 2024.",
 };
 const worktimeline = [
     {
@@ -69,48 +69,45 @@ const skills = [{
 
 // const services = [
 // ];
+const showreel = "/assets/planet.mp4";
 
-const dataportfolio = [
-    {
-        content: "/assets/ref1.jpg",
-        description: "",
-        isVid: false,
-    },
-    {
-        content: "/assets/ref2.jpg",
-        description: "",
-        isVid: false,
-    },
-    {
-        content: "/assets/thomas1.jpg",
-        description: "",
-        isVid: false,
-    },
-    {
-        content: "/assets/thomas2.jpg",
-        description: "",
-        isVid: false,
-    },
-    {
-        content: "/assets/intro1.jpg",
-        description: "",
-        isVid: false,
-    },
+const videosportfolio = [
     {
         content: "/assets/animrenard.mp4",
         description: "",
-        isVid: true,
     },
     {
         content: "/assets/intro.mp4",
         description: "",
-        isVid: true,
     },
     {
         content: "/assets/planet.mp4",
         description: "",
-        isVid: true,
     },
+]
+
+const photosportfolio = [
+    {
+        content: "/assets/ref1.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/ref2.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/thomas1.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/thomas2.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/intro1.jpg",
+        description: "",
+    },
+
 ];
 
 const contactConfig = {
@@ -126,15 +123,17 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    facebook: "https://facebook.com/profile.php?id=100073850272237",
+    linkedin: "https://linkedin.com/in/marion-eyler-8594ab252",
     twitter: "https://twitter.com",
-    instagram: "https://instagram.com",
+    instagram: "https://instagram.com/marion.eyler?igshid=ZDc40DBmNJlmNQ==",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
+    videosportfolio,
+    photosportfolio,
+    showreel,
     worktimeline,
     skills,
     // services,

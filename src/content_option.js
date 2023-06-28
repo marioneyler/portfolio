@@ -90,10 +90,7 @@ const photosportfolio = [
     {
         content: "/assets/ref1.jpg",
         description: "",
-    },
-    {
-        content: "/assets/ref2.jpg",
-        description: "",
+        alt: "/assets/ref2.jpg",
     },
     {
         content: "/assets/thomas1.jpg",

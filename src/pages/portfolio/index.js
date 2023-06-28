@@ -45,6 +45,7 @@ export const Portfolio = () => {
                 <video src={process.env.PUBLIC_URL + data.content} muted autoPlay loop playsInline></video>
                 <div className="content">
                   <p>{data.description}</p>
+                  
                 </div>
               </div>
             );
@@ -64,6 +65,7 @@ export const Portfolio = () => {
                 <img src={process.env.PUBLIC_URL + data.content} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
+                  <img src={process.env.PUBLIC_URL + data.alt} alt="" />
                 </div>
               </div>
             );

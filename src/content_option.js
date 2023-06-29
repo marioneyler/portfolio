@@ -69,7 +69,7 @@ const skills = [{
 
 // const services = [
 // ];
-const showreel = "/assets/planet.mp4";
+const showreel = "/assets/showreel.mp4";
 
 const videosportfolio = [
     {

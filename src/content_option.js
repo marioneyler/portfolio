@@ -7,7 +7,7 @@ const meta = {
 const introdata = {
     title: "Marion EYLER",
     animated: {
-        first: "21 ans",
+        first: "22 ans",
         second: "Passionnée",
         third: "Créative",
     },
@@ -84,13 +84,21 @@ const videosportfolio = [
         content: "/assets/planet.mp4",
         description: "",
     },
+    {
+        content: "/assets/l'ami du chat.mp4",
+        description: "",
+    },
+    {
+        content: "/assets/chambre_horror.mp4",
+        description: "",
+    },
 ]
 
 const photosportfolio = [
     {
-        content: "/assets/ref1.jpg",
+        content: "/assets/ref2.jpg",
         description: "",
-        alt: "/assets/ref2.jpg",
+        alt: "/assets/ref1.jpg",
     },
     {
         content: "/assets/thomas1.jpg",
@@ -102,6 +110,46 @@ const photosportfolio = [
     },
     {
         content: "/assets/intro1.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/cerf.png",
+        description: "",
+    },
+    {
+        content: "/assets/kiki.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/kiki-2.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/kiki-3.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/koi.png",
+        description: "",
+    },
+    {
+        content: "/assets/mains.png",
+        description: "",
+    },
+    {
+        content: "/assets/maison_horreur.png",
+        description: "",
+    },
+    {
+        content: "/assets/Marion_EYLER_Horror.png",
+        description: "",
+    },
+    {
+        content: "/assets/papathomas.jpg",
+        description: "",
+    },
+    {
+        content: "/assets/sniper.png",
         description: "",
     },
 

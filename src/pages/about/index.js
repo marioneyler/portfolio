@@ -37,7 +37,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Expetiences Professionelles</h3>
+            <h3 className="color_sec py-4">Experiences Professionelles</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">

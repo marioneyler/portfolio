@@ -69,13 +69,17 @@ const skills = [{
 
 // const services = [
 // ];
-const showreel = "/assets/showreel.mp4";
+const showreel = "/assets/Demoreel_marioneyler.mov";
 
 const videosportfolio = [
     {
         content: "/assets/animrenard.mp4",
         title: "Le renard polaire",
         description: "L’animation a été minutieusement créée à la main, image par image, réaliser sur Procreate. Chaque détail a été soigneusement élaboré pour donner vie à l’animation. Parallèlement, le fond a été réalisé par une collègue spécialisée en direction artistique, apportant une dimension supplémentaire à l’ensemble. Cette collaboration entre l’animation dessinée à la main et le fond conçu, crée une fusion harmonieuse d’éléments visuels, enrichissant ainsi l’esthétique globale du projet.",
+    },
+    {
+        content: "/assets/showreel.mp4",
+        title: "Showreel 2023",
     },
     // {
     //     content: "/assets/intro.mp4",
